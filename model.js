@@ -111,7 +111,7 @@
         active.removeClass('active');
         clone.removeAttr('style');
         mic.removeAttr('style');
-        window.location.href = "/loading.html";
+        window.location.href = "/Users/user/Desktop/Github/logis-app/loading.html";
 
     };
 
