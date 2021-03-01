@@ -1,0 +1,41 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="mic.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@700&display=swap" rel="stylesheet">
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="button-wrapper">
+            <div id="result-label"></div>
+
+
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <div class="addthis_inline_share_toolbox_dcbn"></div>
+                        
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script>
+        var best_label = sessionStorage.getItem("best_label");
+
+        const labelContainer2 = document.getElementById("result-label");
+
+        labelContainer2.appendChild(document.createElement("div"));
+
+        labelContainer2.innerHTML = best_label;
+        console.log(best_label);
+
+
+    </script>
+    
+
+</body>
